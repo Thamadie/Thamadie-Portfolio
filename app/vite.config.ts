@@ -17,6 +17,6 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 //   },
 // });
 export default defineConfig({
-  base: '/thamadie-portfolio/', // Must match your GitHub repo name exactly
+  base: '/thamadie-portfolio/app/index.html', // Must match your GitHub repo name exactly
   plugins: [inspectAttr(), react()],
 })
