@@ -12,9 +12,9 @@ function TikTokIcon({ size = 24, className = '' }: { size?: number; className?: 
 }
 
 const contactPhotos = [
-  '/assets/8.jpeg',
-  '/assets/7.jpeg',
-  '/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(4).jpeg',
+  '/Thamadie-Portfolio/assets/8.jpeg',
+  '/Thamadie-Portfolio/assets/7.jpeg',
+  '/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(4).jpeg',
 ];
 
 export default function ContactSection() {
