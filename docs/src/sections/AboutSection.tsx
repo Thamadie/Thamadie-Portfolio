@@ -105,7 +105,7 @@ export default function AboutSection() {
         <div ref={imageRef} className="lg:sticky lg:top-32">
           <div className="rounded-2xl overflow-hidden shadow-service">
             <img
-              src="/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.12%20(6).jpeg"
+              src="/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.12%20(6).jpeg"
               alt="Thamadie Gunawardena"
               className="w-full aspect-[4/5] object-cover"
               loading="lazy"
