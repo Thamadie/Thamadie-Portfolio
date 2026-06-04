@@ -8,14 +8,14 @@ import type { GalleryImage } from '@/context/LightboxContext';
 gsap.registerPlugin(ScrollTrigger);
 
 const galleryImages: GalleryImage[] = [
-  { src: '/assets/5.jpeg', title: 'Golden Elegance', category: 'Fashion Editorial' },
-  { src: '/assets/9.jpeg', title: 'Garden Grace', category: 'Lifestyle' },
-  { src: '/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(11).jpeg', title: 'Runway Ready', category: 'Fashion' },
-  { src: '/assets/6.jpeg', title: 'Natural Beauty', category: 'Portrait' },
-  { src: '/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.12%20(2).jpeg', title: 'Street Style', category: 'Fashion' },
-  { src: '/assets/2.jpeg', title: 'Evening Glow', category: 'Editorial' },
-  { src: '/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(8).jpeg', title: 'Confident Pose', category: 'Portrait' },
-  { src: '/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(5).jpeg', title: 'Floral Dreams', category: 'Lifestyle' },
+  { src: '/Thamadie-Portfolio/assets/5.jpeg', title: 'Golden Elegance', category: 'Fashion Editorial' },
+  { src: '/Thamadie-Portfolio/assets/9.jpeg', title: 'Garden Grace', category: 'Lifestyle' },
+  { src: '/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(11).jpeg', title: 'Runway Ready', category: 'Fashion' },
+  { src: '/Thamadie-Portfolio/assets/6.jpeg', title: 'Natural Beauty', category: 'Portrait' },
+  { src: '/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.12%20(2).jpeg', title: 'Street Style', category: 'Fashion' },
+  { src: '/Thamadie-Portfolio/assets/2.jpeg', title: 'Evening Glow', category: 'Editorial' },
+  { src: '/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(8).jpeg', title: 'Confident Pose', category: 'Portrait' },
+  { src: '/Thamadie-Portfolio/assets/WhatsApp%20Image%202026-06-03%20at%2021.38.11%20(5).jpeg', title: 'Floral Dreams', category: 'Lifestyle' },
 ];
 
 export default function GallerySection() {
@@ -88,7 +88,7 @@ export default function GallerySection() {
               key={index}
               data-cursor-hover
               onClick={() => openLightbox(index, galleryImages)}
-              className="group flex-shrink-0 w-[240px] md:w-[280px] bg-white rounded-2xl border-2 border-pale-lavender overflow-hidden cursor-pointer transition-all duration-300 hover:border-dusty-rose hover:scale-[1.02]"
+              className="group flex-shrink-0 w-[240px] md:w-[280px] bg-white rounded-2xl border-2 border-pale-lavender overflow-hidden cursor-pointer transition-all duration-300 hover:border-dusty-rose"
             >
               <div className="aspect-[3/4] overflow-hidden">
                 <img
