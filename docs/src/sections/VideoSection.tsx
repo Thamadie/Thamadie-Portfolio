@@ -5,22 +5,22 @@ const videos = [
   {
     title: 'Product Presentation',
     description: 'Showcasing products with confidence and style',
-    src: '/assets/12.mp4',
+    src: '/Thamadie-Portfolio/assets/12.mp4',
   },
   {
     title: 'Fashion Showcase',
     description: 'A walkthrough of the latest fashion collection',
-    src: '/assets/3.mp4',
+    src: '/Thamadie-Portfolio/assets/3.mp4',
   },
   {
     title: 'Brand Collaboration',
     description: 'Partnering with brands for creative content',
-    src: '/assets/13.mp4',
+    src: '/Thamadie-Portfolio/assets/13.mp4',
   },
   {
     title: 'Behind the Scenes',
     description: 'A glimpse into life on set',
-    src: '/assets/14.mp4',
+    src: '/Thamadie-Portfolio/assets/14.mp4',
   },
 ];
 
@@ -74,9 +74,9 @@ export default function VideoSection() {
         {/* Additional videos */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { src: '/assets/WhatsApp%20Video%202026-06-03%20at%2021.34.17.mp4', title: 'Live Presentation' },
-            { src: '/assets/WhatsApp%20Video%202026-06-03%20at%2021.42.20.mp4', title: 'Event Hosting' },
-            { src: '/assets/WhatsApp%20Video%202026-06-04%20at%2011.58.28.mp4', title: 'Creative Content' },
+            { src: '/Thamadie-Portfolio/assets/WhatsApp%20Video%202026-06-03%20at%2021.34.17.mp4', title: 'Live Presentation' },
+            { src: '/Thamadie-Portfolio/assets/WhatsApp%20Video%202026-06-03%20at%2021.42.20.mp4', title: 'Event Hosting' },
+            { src: '/Thamadie-Portfolio/assets/WhatsApp%20Video%202026-06-04%20at%2011.58.28.mp4', title: 'Creative Content' },
           ].map((video, index) => (
             <div
               key={`extra-${index}`}
