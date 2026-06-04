@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://https://thamadie.github.io/Thamadie-Portfolio/", // 👈 ADD THIS LINE
+  "homepage": "https://thamadie.github.io/Thamadie-Portfolio/",
 
   "scripts": {
     "dev": "vite",
